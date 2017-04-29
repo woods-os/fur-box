@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Fur Box
+Comment=Fur Box Desktop Environment
+Type=XSession
+Exec=/usr/local/bin/fur-box-start
+TryExec=fur-box-start
