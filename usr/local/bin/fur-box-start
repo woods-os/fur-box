@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# start compositor
+compton & 
+
+# start wallpaper
+nitrogen --restore &
+
+# start panel
+tint2 &
+
+# start dock
+plank &
+# can also use docky
+
+#start window manager
+openbox
+
+#conky to be added soon
