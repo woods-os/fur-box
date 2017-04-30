@@ -12,7 +12,13 @@
       <item label="Shut down">
         <action name="Execute">
           <prompt>yes</prompt>
-          <command>shutdown -h now</command>
+          <command>poweroff</command>
+        </action>
+      </item>
+      <item label="Suspend">
+        <action name="Execute">
+          <prompt>yes</prompt>
+          <command>suspend</command>
         </action>
       </item>
       <item label="Reboot">
