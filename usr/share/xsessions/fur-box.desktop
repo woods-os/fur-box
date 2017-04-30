@@ -1,6 +1,7 @@
 [Desktop Entry]
 Name=Fur Box
 Comment=Fur Box Desktop Environment
-Type=XSession
+Type=Application
 Exec=/usr/local/bin/fur-box-session
 TryExec=fur-box-session
+Icon=
