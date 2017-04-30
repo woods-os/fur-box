@@ -2,5 +2,5 @@
 Name=Fur Box
 Comment=Fur Box Desktop Environment
 Type=XSession
-Exec=/usr/local/bin/fur-box-start
-TryExec=fur-box-start
+Exec=/usr/local/bin/fur-box-session
+TryExec=fur-box-session
