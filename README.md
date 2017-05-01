@@ -13,9 +13,9 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 `git clone http://github.com/krushndayshmookh/fur-box`
 
 * copy the folders:
-`cp -rf ./user-home/* $HOME`  
-`sudo cp -rf ./usr /`  
-`sudo cp -rf ./etc /`
+`cp -rf user-home/.config $HOME`  
+`sudo cp -rf usr /`  
+`sudo cp -rf etc /`
 
 ### basic components
 * `openbox` as window manager  
