@@ -16,7 +16,7 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 `chmod a+x arch-install.sh`
 
 * run it:  
-`./archinstall.sh`  
+`./arch-install.sh`  
 Say Yes to prompts and enter password wherever reqiured.
 
 * Log out and log back into your newly installed Fur Box Desktop!
