@@ -12,7 +12,7 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 * clone or download this repository:  
 `git clone http://github.com/krushndayshmookh/fur-box`
 
-* copy the folders:
+* copy the folders:  
 `cp -rf user-home/.config $HOME`  
 `sudo cp -rf usr /`  
 `sudo cp -rf etc /`
