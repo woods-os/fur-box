@@ -5,7 +5,9 @@ An Elegant, Lightweight Desktop Environment
 This is an `openbox` based desktop environment which has very few dependencies. Designed to be beautiful, lightning fast and stable.
 
 ### install instructions
- _will be added soon_
+#### Arch Linux:
+   - install dependencies:
+     `sudo pacman -S openbox tint2 plank nitrogen compton`
 
 ### basic components
 - `openbox` as window manager
