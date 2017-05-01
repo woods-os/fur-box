@@ -6,22 +6,23 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 
 ### install instructions
 #### Arch Linux:
-   - install dependencies:
+   - install dependencies:  
      `sudo pacman -S openbox tint2 plank nitrogen compton`
 
 ### basic components
-- `openbox` as window manager
-- `nitrogen` for desktop background
-- `compton` as compositor
-- `tint2` for panel
-- `obmenu-generator` to generate dynamic menus
-- `plank` as dock
+- `openbox` as window manager  
+- `nitrogen` for desktop background  
+- `compton` as compositor  
+- `tint2` for panel  
+- `obmenu-generator` to generate dynamic menus  
+- `plank` as dock  
 
 ### themes
-- `arc-gtk-theme` as GTK+ theme
-- `arc-openbox-git` for window decorations  `//maybe i will make my own version of theme`
-- `papirus-icon-theme` for icons
-- `paper-cursor-theme` for cursors
+- `arc-gtk-theme` as GTK+ theme  
+- `arc-openbox-git` for window decorations 
+ - _maybe i will make my own version of theme_  
+- `papirus-icon-theme` for icons  
+- `paper-cursor-theme` for cursors  
 
 ### recommended apps
   _will be added soon_
