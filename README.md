@@ -42,5 +42,5 @@ Say Yes to prompts and enter password wherever reqiured.
   
 
 ### Developed by
-####[Krushn Dayshmookh](http://krushndayshmookh.github.io)
+#### [Krushn Dayshmookh](http://krushndayshmookh.github.io)
 
