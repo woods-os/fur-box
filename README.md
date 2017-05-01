@@ -10,7 +10,7 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 
 #### Arch Linux:
 * download `arch-install.sh`:  
-`wget [insert-link]`
+`wget https://github.com/krushndayshmookh/fur-box/releases/download/v0.1-alpha/arch-install.sh`
 
 * make it executable:  
 `chmod a+x arch-install.sh`
