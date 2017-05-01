@@ -4,6 +4,8 @@
 ### About
 This is an `openbox` based desktop environment which has very few dependencies. Designed to be beautiful, lightning fast and stable.
 
+![screenshot1](https://github.com/krushndayshmookh/fur-box/raw/master/docs/images/screenshot1.png)
+
 ### Install instructions
 
 **This is currently very much in developmental stage. Lots of work is to be done. Themes and configurations may not work as expected. Still, it is more stable than other desktops such as GNOME and KDE.**
