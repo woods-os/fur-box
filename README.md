@@ -6,16 +6,17 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 
 ### install instructions
 #### Arch Linux:
-* install dependencies:  
-`sudo pacman -S openbox tint2 plank nitrogen compton obmenu-generator`  
+* download `arch-install.sh`:  
+`wget http://github.com/krushndayshmookh/fur-box`
 
-* clone or download this repository:  
-`git clone http://github.com/krushndayshmookh/fur-box`
+* make it executable:  
+`chmod a+x arch-install.sh`
 
-* copy the folders:  
-`cp -rf user-home/.config $HOME`  
-`sudo cp -rf usr /`  
-`sudo cp -rf etc /`
+* run it:  
+`./archinstall.sh`  
+Say Yes to prompts and enter password wherever reqiured.
+
+* Log out and log back into your newly installed Fur Box Desktop!
 
 ### basic components
 * `openbox` as window manager  
