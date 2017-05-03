@@ -17,7 +17,7 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 `$ makepkg -sri`  
 
 * download `arch-install.sh`:  
-`$ wget https://github.com/krushndayshmookh/fur-box/releases/download/v0.1-alpha/arch-install.sh`
+`$ wget https://github.com/krushndayshmookh/fur-box/releases/download/v0.1-alpha1/arch-install.sh`
 
 * make it executable:  
 `$ chmod a+x arch-install.sh`
