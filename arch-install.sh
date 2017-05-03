@@ -40,3 +40,4 @@ sudo chmod 755 /usr/share/plank/themes/*/dock.theme
 
 # reconfigure oenbox
 openbox --reconfigure
+
