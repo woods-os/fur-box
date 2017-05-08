@@ -38,8 +38,7 @@ Say Yes to prompts and enter password wherever reqiured.
 
 ### Themes
 * `arc-gtk-theme` as GTK+ theme  
-* `arc-openbox-git` for window decorations  
- _maybe i will make my own version of theme_  
+* `Fur-darker` for window decorations  
 * `papirus-icon-theme` for icons  
 * `paper-cursor-theme` for cursors  
 
