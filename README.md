@@ -52,6 +52,7 @@ Say Yes to prompts and enter password wherever reqiured.
 * `Fur Darker` for window decorations  
 * `papirus-icon-theme` for icons  
 * `paper-cursor-theme` for cursors  
+* Google Fonts' Nunito as base font.
 
 ### Recommended Apps
   _Will be added soon._  
