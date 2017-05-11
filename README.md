@@ -20,7 +20,7 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 `$ makepkg -sri`  
 
 * download `arch-install.sh`:  
-`$ wget https://github.com/krushndayshmookh/fur-box/releases/download/v0.2-alpha0/arch-install.sh`
+`$ wget https://github.com/krushndayshmookh/fur-box/releases/download/v0.3-alpha0/arch-install.sh`
 
 * make it executable:  
 `$ chmod a+x arch-install.sh`
@@ -49,11 +49,7 @@ Say Yes to prompts and enter password wherever reqiured.
 
 ### Themes
 * `arc-gtk-theme` as GTK+ theme  
-<<<<<<< HEAD
-* `fur-box` for window decorations  
-=======
-* `Fur-darker` for window decorations  
->>>>>>> master/master
+* `Fur Darker` for window decorations  
 * `papirus-icon-theme` for icons  
 * `paper-cursor-theme` for cursors  
 
