@@ -2,6 +2,7 @@
 Name=Fur Box
 Comment=Fur Box Desktop Environment
 Type=Application
-Exec=/usr/local/bin/fur-box-session
+Exec=/usr/bin/fur-box-session
 TryExec=fur-box-session
-Icon=
+Icon=/usr/share/fur-box/icon.png
+

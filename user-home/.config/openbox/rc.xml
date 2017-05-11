@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Fur-Darker</name>
+    <name>Fur-Darker-git</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -76,7 +76,7 @@
     </font>
     <font place="MenuHeader">
       <name>Nunito</name>
-      <size>9</size>
+      <size>10</size>
       <!-- font size in points -->
       <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
