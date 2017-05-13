@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #
 #   FOX LAUNCHER
 #   
@@ -28,14 +30,16 @@ appList = []
 
 class AnApp:
     """An app information object"""
-    name = "n"
-    executable = "e"
-    icon = "e"
+    name = "no name"
+    executable = "true"
+    icon = "folder-new"
+    category = "unknown"
 
 def readAppName (desktopFile):
     x = AnApp()
     file = open (desktopFile,"r")
     lines = file.readlines()
+    shouldAppBeShown = True
     for data in lines:
         prop = data.split("=")
 
@@ -52,11 +56,24 @@ def readAppName (desktopFile):
             prop[1] = prop[1].replace("\n","")
             x.icon = prop[1]
             #print (appIcon + "\n")
+            
+        if prop[0] == "Categories":
+            prop[1] = prop[1].replace("\n","")
+            categories = prop[1].split(";")
+            x.category = categories
+            
+        if prop[0] == "NoDisplay":
+            prop[1] = prop[1].replace("\n","")
+            if prop[1] == "true":
+                shouldAppBeShown = False
+            
         #app = AnApp(appName, appExec, appIcon)
-        
+    
         #
     #print (x.name)
-    appList.append(x)
+    if shouldAppBeShown:
+        appList.append(x)
+
     #print (appList[0].name,appList[0].executable,appList[0].icon,)        
     file.close()
 
@@ -76,14 +93,52 @@ def list():
 def runProgram(program):
     for app in appList:
         if app.name == program:
-            print app.name
+            print (app.name)
             system(app.executable)
-  
-if sys.argv[1] == "run":
-    runProgram(sys.argv[2])
+
+            
+            
+            
+            
+            
+            
+            
+# --------------      CATEGORIES        -----------------------    
     
-if sys.argv[1] == "list":
-    list()
+
+
+def addCategory (categoryName, program, categoryKey):
+    for x in program.category:
+        if x  == categoryKey:
+            categoryName.append(program)
+    
+    
+    
+network = []
+development = []
+    
+for app in appList:
+    addCategory(network, app, "Network")
+    addCategory(network, app, "Internet")
+    addCategory(development, app, "Development")    
+
+#for app in network:
+#    print (app.name)
+    
+    
+    
+    
+    
+    
+    
+# -------------------------------------------------------------
+
+#if __name__ == __main__:  
+#    if sys.argv[1] == "run":
+#        runProgram(sys.argv[2])
+#    
+#    if sys.argv[1] == "list":
+#        list()
     
 #print sys.argv[0]
 #print sys.argv[1]
