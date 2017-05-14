@@ -5,7 +5,7 @@ sudo pacman -S openbox tint2 plank nitrogen compton
 #obmenu-generator to be added soon with other aur packages.
 
 # clone or download this repository:
-git clone http://github.com/krushndayshmookh/fur-box.git
+git clone http://github.com/woods-os/fur-box.git
 
 # move into folder:
 cd furbox
