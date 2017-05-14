@@ -1,10 +1,16 @@
 # Fur Box
 > An Elegant, Lightweight Desktop Environment
 
+---------------------------------------------------------
+
 ### About
 This is an `openbox` based desktop environment which has very few dependencies. Designed to be beautiful, lightning fast and stable.
 
+This Desktop is part of [Woods Linux OS](https://github.com/woods-os).
+
 ![screenshot1](https://github.com/krushndayshmookh/fur-box/raw/master/docs/images/screenshot-current.png)
+
+---------------------------------------------------------
 
 ### Install instructions
 
@@ -20,7 +26,7 @@ This is an `openbox` based desktop environment which has very few dependencies. 
 `$ makepkg -sri`  
 
 * download `arch-install.sh`:  
-`$ wget https://github.com/krushndayshmookh/fur-box/releases/download/v0.3-alpha0/arch-install.sh`
+`$ wget https://github.com/woods-os/fur-box/releases/download/v0.3-alpha0/arch-install.sh`
 
 * make it executable:  
 `$ chmod a+x arch-install.sh`
@@ -38,6 +44,8 @@ Say Yes to prompts and enter password wherever reqiured.
 
 * also, the GTK+ theme:  
 `$ sudo pacman -S arc-gtk-theme`  
+
+---------------------------------------------------------
 
 ### Basic Components
 * `openbox` as window manager  
@@ -58,7 +66,9 @@ Say Yes to prompts and enter password wherever reqiured.
   _Will be added soon._  
   _Will be included in another package as well._
   
+---------------------------------------------------------
 
 ### Developed by
-#### [Krushn Dayshmookh](http://krushndayshmookh.github.io)
-
+#### [Krushn Dayshmookh](http://krushndayshmookh.github.io)  
+for
+#### [Woods Linux](http://www.github.com/woods-os)
