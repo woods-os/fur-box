@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # install dependencies:
-sudo pacman -S openbox tint2 plank nitrogen compton
+sudo pacman -S openbox tint2 plank nitrogen compton --needed
 #obmenu-generator to be added soon with other aur packages.
 
 # clone or download this repository:
