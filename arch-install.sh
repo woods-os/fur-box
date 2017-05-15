@@ -8,7 +8,7 @@ sudo pacman -S openbox tint2 plank nitrogen compton
 git clone http://github.com/woods-os/fur-box.git
 
 # move into folder:
-cd furbox
+cd fur-box
 
 # copy the folders:
 cp -rf user-home/.config $HOME
