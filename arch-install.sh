@@ -30,7 +30,7 @@ sudo chmod 755 ~/.config/nitrogen/bg-saved.cfg
 sudo chmod 755 ~/.config/tint2/tint2rc
 
 # system files
-sudo chmod 755 /usr/local/bin/fur-box-session
+sudo chmod 755 /usr/bin/fur-box-session
 sudo chmod 755 /usr/share/xsessions/fur-box.desktop
 
 sudo chmod 755 /usr/share/backgrounds/Godafoss_Iceland.jpg
