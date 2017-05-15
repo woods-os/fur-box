@@ -26,7 +26,7 @@ This Desktop is part of [Woods Linux OS](https://github.com/woods-os).
 `$ makepkg -sri`  
 
 * download `arch-install.sh`:  
-`$ wget https://github.com/woods-os/fur-box/releases/download/v0.3-alpha0/arch-install.sh`
+`$ wget https://github.com/woods-os/fur-box/releases/download/v0.3-alpha1/arch-install.sh`
 
 * make it executable:  
 `$ chmod a+x arch-install.sh`
