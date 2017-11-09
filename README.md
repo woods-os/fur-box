@@ -14,7 +14,7 @@ This Desktop is part of [Woods Linux OS](https://github.com/woods-os).
 
 ### Install instructions
 
-**This is currently very much in developmental stage. Lots of work is to be done. Themes and configurations may not work as expected. Still, it is more stable than other desktops such as GNOME and KDE.**
+**This is currently very much in developmental stage. Lots of work is to be done. Themes and configurations may not work as expected. Still, it is very stable.**
 
 #### Arch Linux:
 * the `base-devel` package needs to be installed. if not already, install it with:  
